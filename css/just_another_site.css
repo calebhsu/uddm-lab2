@@ -76,6 +76,14 @@ h2 {
     margin-bottom: .666666667em; /* 16px / 24px */
     margin-top: 1em;
 }
+h3 {
+    border-bottom: 2px solid #dbdbdb;
+    font-family: 'ChunkFiveRegular', Georgia, serif;
+    font-size: 1.2em; /* 24px/16px */
+    line-height: 1em;
+    margin-bottom: .666666667em; /* 16px / 24px */
+    margin-top: 1em;
+}
 figcaption,
 .top-stories li {
     font-size: .75em; /* 12px / 16px */
