@@ -135,18 +135,23 @@ ol {
     margin-bottom: 1em
 }
 #container {
-    margin: auto;
+    margin: auto 0;
     overflow: hidden;
-    width: 948px; 
-    padding-bottom: 1.5em;
+    width: 95%; 
+    padding-bottom: .625em 1.0548523% 1.5em; /* fluid: 10px/16px, 10px/948, 24px/16px */
 }
+
+.main section img {
+    width:  65.8227848%; /* fluid: 624px/948 */
+}
+
 .main {
 	float: left;
-    width: 624px;
+    width:  65.8227848%; /* fluid: 624px/948 */
 }
 aside {
     float: right;
-    width: 300px;
+    width: 31.6455696%; /* fluid: 300px/948 */
 }
 ul.tags li {
     float: left;
@@ -206,7 +211,7 @@ ul.tags li {
 .slats li {
     float: left;
     margin-right: 24px;
-    width: 300px;
+    width: 31.6455696%; /* fluid: 300px/948 */
 
 }
 .slats li:last-child {
